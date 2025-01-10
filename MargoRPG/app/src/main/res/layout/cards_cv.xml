@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:src="@drawable/fight_icon"
+        android:onClick="onAttackClick"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:src="@drawable/eq_icon"
+        android:onClick="onEqClick"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:src="@drawable/person_icon"
+        android:onClick="onPersonClick"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:src="@drawable/shop_icon"
+        android:onClick="onShopClick"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:src="@drawable/quest_icon"
+        android:onClick="onQuestClick"/>
+
+</LinearLayout>
